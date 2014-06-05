@@ -58,6 +58,7 @@ issues = ARGV.map do |filename|
     id: "PW-" + policy['sources'][0]['url'][/policy.php\?id=(\d+)/, 1],
     text: policy['text'],
     html: policy['description'],
+    categories: policy['categories'],
     aspects: aspects_from(policy['aspects']),
   }
 end
