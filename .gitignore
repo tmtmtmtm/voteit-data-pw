@@ -1,3 +1,4 @@
 *.swp
 cache/
-data/old/
+data/old
+issues/
