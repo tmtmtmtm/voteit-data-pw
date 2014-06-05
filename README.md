@@ -13,3 +13,5 @@ This generates data for use in a sample UK VoteIt
 
 4. ``bin/parties_from_issues.rb issues/*.json > parties.json``
 
+5. ``bin/people_from_issues.rb issues/*.json > people.json``
+
