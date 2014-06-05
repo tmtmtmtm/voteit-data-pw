@@ -39,6 +39,7 @@ ARGV.each do |filename|
         partyid  = voter['party'].gsub(/ \([^\)]+\)/,'').gsub(/^whilst /,'').gsub(/^Ind .*/, 'Ind').downcase
         name = std_name(voter['name'])
         # Hack for people with same name
+        name = "Gareth R. Thomas" if name == 'Gareth Thomas' and voter['constituency'] == 'Harrow West'
         name = "Angela C. Smith" if name == 'Angela Smith' and voter['constituency'] != 'Basildon'
         ((people[name] ||= {})[partyid] ||= []) << aspect['motion']['date']
       end

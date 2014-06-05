@@ -5472,6 +5472,16 @@
     ]
   },
   {
+    "id": "gareth_r_thomas",
+    "name": "Gareth R. Thomas",
+    "memberships": [
+      {
+        "organization_id": "lab",
+        "role": "MP"
+      }
+    ]
+  },
+  {
     "id": "gareth_thomas",
     "name": "Gareth Thomas",
     "other_names": [
@@ -5482,7 +5492,8 @@
     "memberships": [
       {
         "organization_id": "lab",
-        "role": "MP"
+        "role": "MP",
+        "end_date": "2005-03-18"
       }
     ]
   },
