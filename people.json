@@ -1141,7 +1141,7 @@
     ]
   },
   {
-    "id": "angela_c._smith",
+    "id": "angela_c_smith",
     "name": "Angela C. Smith",
     "memberships": [
       {
@@ -1819,11 +1819,15 @@
   {
     "id": "bernard_jenkin",
     "name": "Bernard Jenkin",
+    "other_names": [
+      {
+        "name": "Hon. Bernard Jenkin"
+      }
+    ],
     "memberships": [
       {
         "organization_id": "con",
-        "role": "MP",
-        "start_date": "2005-06-28"
+        "role": "MP"
       }
     ]
   },
@@ -6689,28 +6693,6 @@
     "memberships": [
       {
         "organization_id": "lab",
-        "role": "MP",
-        "end_date": "2005-03-18"
-      }
-    ]
-  },
-  {
-    "id": "hon._bernard_jenkin",
-    "name": "Hon. Bernard Jenkin",
-    "memberships": [
-      {
-        "organization_id": "con",
-        "role": "MP",
-        "end_date": "2005-03-18"
-      }
-    ]
-  },
-  {
-    "id": "hon._nicholas_soames",
-    "name": "Hon. Nicholas Soames",
-    "memberships": [
-      {
-        "organization_id": "con",
         "role": "MP",
         "end_date": "2005-03-18"
       }
@@ -12094,11 +12076,15 @@
   {
     "id": "nicholas_soames",
     "name": "Nicholas Soames",
+    "other_names": [
+      {
+        "name": "Hon. Nicholas Soames"
+      }
+    ],
     "memberships": [
       {
         "organization_id": "con",
-        "role": "MP",
-        "start_date": "2005-06-28"
+        "role": "MP"
       }
     ]
   },

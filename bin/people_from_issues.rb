@@ -18,7 +18,7 @@ people = {}
 def std_name (orig)
   if @names[orig].nil?
     std = orig.sub(/^Earl of /,'').sub(/^Lady Lady /,'Lady ')
-    %w(Reverend Professor Viscount Sir Dr Miss Mrs Mr Ms).each do |prefix| 
+    %w(Hon. Reverend Professor Viscount Sir Dr Miss Mrs Mr Ms).each do |prefix| 
       std.sub!(/^#{prefix} /,'')
     end
     @names[orig] = std
@@ -47,7 +47,7 @@ ARGV.each do |filename|
 end
 
 def id_from_name(name)
-  I18n.transliterate(name).gsub(/[ \-]/,'_').gsub("'",'').downcase
+  I18n.transliterate(name).gsub(/[ \-]/,'_').gsub(/['.]/,'').downcase
 end
 
 def memberships_from(history)
