@@ -2,7 +2,7 @@
 
 # Make a vote-api compatible JSON motions file from an Issues file
 #
-# bin/motions_from_issues.rb issues/*.json > motions.json
+# for i in issues/*.json; do; basename $i; bin/motions_from_issues.rb $i > data/motions/`basename $i`; done
 # Requires a people.json in the same directory
 
 require 'json'
@@ -25,8 +25,8 @@ def motion_from (motion)
     ve['votes'].each do |v|
       # TODO stop copying this code
       v['party_id'] = v['voter'].delete('party').gsub(/ \([^\)]+\)/,'').gsub(/^whilst /,'').gsub(/^Ind .*/, 'Ind')
-      v['voter']['name'] = "Gareth R. Thomas" if v['voter']['name'] == 'Gareth Thomas' and v['voter']['constituency'] == 'Harrow West'
-      v['voter']['name'] = "Angela C. Smith" if v['voter']['name'] == 'Angela Smith' and v['voter']['constituency'] != 'Basildon'
+      v['voter']['name'] = "Gareth R. Thomas" if v['voter']['name'][/Gareth Thomas/] and v['voter']['constituency'] == 'Harrow West'
+      v['voter']['name'] = "Angela C. Smith" if v['voter']['name'][/Angela Smith/] and v['voter']['constituency'] != 'Basildon'
       
       v['voter'].delete('url')
       v['voter']['id'] = @mp_lookup[ v['voter']['name'] ] or raise "no such MP: #{v['voter']['name']}"
