@@ -25,13 +25,15 @@ def weights_for (aspect)
   if (strong) 
     return { 
       majority_vote => 50,
-      'absent'  => 25,
+      'absent'      => 25,
+      'both'        => 25,
       minority_vote => 0,
     }
   else
     return { 
       majority_vote => 10,
-      'absent'  => 1,
+      'absent'      => 1,
+      'both'        => 1,
       minority_vote => 0,
     }
   end
