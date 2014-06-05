@@ -1,8 +1,8 @@
 #!/usr/bin/ruby
 
-# Make a simple parties.json from the parsed issues
+# Make a simple parties.json from the parsed policies
 #
-# Usage: bin/parties_from_issues.rb issues/*.json > parties.json
+# Usage: bin/parties_from_policies.rb data/policies/*.json > parties.json
 
 require 'json'
 require 'set'

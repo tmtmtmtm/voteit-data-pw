@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-# Make an Issue JSON from a mySoc policy
+# Make a Policy JSON for a mySoc policy from PublicWhip data
 # https://raw.githubusercontent.com/mysociety/theyworkforyou/master/classes/Policies.php
 #
 # Usage: $0 <id> <str>

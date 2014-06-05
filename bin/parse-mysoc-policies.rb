@@ -21,7 +21,7 @@ end
 
 file = ARGV[0] || "twfy.policies.text"
 parse_twfy_list(file).each do |i|
-  puts "./make_issue.rb #{i[:id]} '#{i[:text]}' > issues/#{i[:id]}.json"
+  puts "bin/scrape_policy_json.rb #{i[:id]} '#{i[:text]}' > data/policies/#{i[:id]}.json"
 end
 
 

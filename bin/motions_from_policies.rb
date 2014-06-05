@@ -1,8 +1,8 @@
 #!/usr/bin/ruby
 
-# Make a vote-api compatible JSON motions file from an Issues file
+# Make a vote-api compatible JSON motions file from a Policy file
 #
-# for i in issues/*.json; do; basename $i; bin/motions_from_issues.rb $i > data/motions/`basename $i`; done
+# for i in data/policies/*.json; do; basename $i; bin/motions_from_policies.rb $i > data/motions/`basename $i`; done
 # Requires a people.json in the same directory
 
 require 'json'

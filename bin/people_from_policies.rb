@@ -1,8 +1,8 @@
 #!/usr/bin/ruby
 
-# Make a simple people.json from the parsed issues
+# Make a simple people.json from the parsed policies
 #
-# Usage: bin/people_from_issues.rb issues/*.json > people.json
+# Usage: bin/people_from_policies.rb data/policies/*.json > people.json
 
 require 'json'
 require 'set'
