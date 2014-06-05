@@ -38,7 +38,7 @@ puts JSON.pretty_generate(
   parties.reject { |p| p.match /Speaker/ }.sort.map { |party|
     {
       classification: 'party',
-      id: party,
+      id: party.downcase,
       name: name_of(party),
     }
   }
