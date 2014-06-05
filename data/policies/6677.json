@@ -41246,5 +41246,8 @@
       }
     }
   ],
+  "categories": [
+    "health"
+  ],
   "description": "restricting the provision of services to <b>private patients</b> by the NHS"
 }

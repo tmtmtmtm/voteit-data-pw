@@ -3,7 +3,7 @@
 # Make a Policy JSON for a mySoc policy from PublicWhip data
 # https://raw.githubusercontent.com/mysociety/theyworkforyou/master/classes/Policies.php
 #
-# Usage: $0 <id> <str>
+# Usage: $0 <id> <cats> <str>
 
 require 'cgi'
 require 'uri'
@@ -96,7 +96,7 @@ class DivisionScraper < PWScraper
   end
 
   def votes
-    @doc.css('#votetable tr').drop(1).map { |voterow| 
+    @votes ||= @doc.css('#votetable tr').drop(1).map { |voterow| 
       row = voterow.css('td')
       (who, where, party, vote) = row.map(&:text).map(&:strip)
       mpurl = row[0].xpath('./a/@href').first
@@ -173,10 +173,11 @@ end
 
 #----------------
 
-abort "Usage: $0 <id> <description>" unless ARGV.count == 2
+abort "Usage: $0 <id> <cats> <description>" unless ARGV.count == 3
 
 policy = PolicyScraper.new("policy.php?id=" + ARGV[0]).as_hash
-policy[:description] = ARGV[1]
+policy[:categories] = ARGV[1].split /,/
+policy[:description] = ARGV[2]
 puts JSON.pretty_generate(policy)
 
 
