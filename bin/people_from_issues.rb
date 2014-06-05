@@ -17,7 +17,7 @@ people = {}
 @names = {}
 def std_name (orig)
   if @names[orig].nil?
-    std = orig.sub(/^Earl of /,'')
+    std = orig.sub(/^Earl of /,'').sub(/^Lady Lady /,'Lady ')
     %w(Reverend Professor Viscount Sir Dr Miss Mrs Mr Ms).each do |prefix| 
       std.sub!(/^#{prefix} /,'')
     end

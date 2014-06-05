@@ -9970,29 +9970,22 @@
   {
     "id": "lady_hermon",
     "name": "Lady Hermon",
+    "other_names": [
+      {
+        "name": "Lady Lady Hermon"
+      }
+    ],
     "memberships": [
       {
         "organization_id": "uup",
         "role": "MP",
-        "start_date": "2005-06-28",
+        "start_date": "2001-10-24",
         "end_date": "2010-03-30"
       },
       {
         "organization_id": "ind",
         "role": "MP",
         "start_date": "2010-06-08"
-      }
-    ]
-  },
-  {
-    "id": "lady_lady_hermon",
-    "name": "Lady Lady Hermon",
-    "memberships": [
-      {
-        "organization_id": "uup",
-        "role": "MP",
-        "start_date": "2001-10-24",
-        "end_date": "2005-03-18"
       }
     ]
   },
