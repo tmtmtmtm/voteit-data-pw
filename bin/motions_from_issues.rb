@@ -27,6 +27,7 @@ def motion_from (motion)
       v['party_id'] = v['voter'].delete('party').gsub(/ \([^\)]+\)/,'').gsub(/^whilst /,'').gsub(/^Ind .*/, 'Ind')
       v['voter']['name'] = "Gareth R. Thomas" if v['voter']['name'][/Gareth Thomas/] and v['voter']['constituency'] == 'Harrow West'
       v['voter']['name'] = "Angela C. Smith" if v['voter']['name'][/Angela Smith/] and v['voter']['constituency'] != 'Basildon'
+      v['voter']['name'] = "Dr Alan Williams" if v['voter']['name'][/Alan Williams/] and v['voter']['constituency'][/Carmarthen/]
       
       v['voter'].delete('url')
       v['voter']['id'] = @mp_lookup[ v['voter']['name'] ] or raise "no such MP: #{v['voter']['name']}"

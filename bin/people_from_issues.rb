@@ -41,6 +41,7 @@ ARGV.each do |filename|
         # Hack for people with same name
         name = "Gareth R. Thomas" if name == 'Gareth Thomas' and voter['constituency'] == 'Harrow West'
         name = "Angela C. Smith" if name == 'Angela Smith' and voter['constituency'] != 'Basildon'
+        name = "Dr Alan Williams" if name == 'Alan Williams' and voter['constituency'][/Carmarthen/]
         ((people[name] ||= {})[partyid] ||= []) << aspect['motion']['date']
       end
     end

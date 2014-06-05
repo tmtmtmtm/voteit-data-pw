@@ -4845,6 +4845,17 @@
     ]
   },
   {
+    "id": "dr_alan_williams",
+    "name": "Dr Alan Williams",
+    "memberships": [
+      {
+        "organization_id": "lab",
+        "role": "MP",
+        "end_date": "2000-07-05"
+      }
+    ]
+  },
+  {
     "id": "duncan_hames",
     "name": "Duncan Hames",
     "memberships": [
