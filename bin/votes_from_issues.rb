@@ -14,19 +14,6 @@ people = {}
   max: '1900-01-01',
 }
 
-@names = {}
-def std_name (orig)
-  if @names[orig].nil?
-    std = orig.sub(/^Earl of /,'')
-    %w(Reverend Professor Viscount Sir Dr Miss Mrs Mr Ms).each do |prefix| 
-      std.sub!(/^#{prefix} /,'')
-    end
-    @names[orig] = std
-  end
-  return @names[orig] 
-end
-
-
 ARGV.each do |filename|
   warn "Reading #{filename}"
   json = JSON.parse(File.read(filename));
@@ -38,7 +25,12 @@ ARGV.each do |filename|
         # Resolve later multiple people with same name
         voter = vote['voter']
         partyid  = voter['party'].gsub(/ \([^\)]+\)/,'').gsub(/^whilst /,'').gsub(/^Ind .*/, 'Ind').downcase
-        name = std_name(voter['name'])
+        name = voter['name'].sub(/^Earl of /,'')
+        # TODO store each version in other_names
+        %w(Reverend Professor Viscount Sir Dr Miss Mrs Mr Ms).each do |prefix| 
+          name.sub!(/^#{prefix} /,'')
+        end
+
         ((people[name] ||= {})[partyid] ||= []) << aspect['motion']['date']
       end
     end
@@ -63,21 +55,12 @@ def memberships_from(history)
   }
 end
 
-def names_of (name)
-  data = { 
-    name: name,
-    other_names: '',
-  }
-end
-
 data = people.sort_by { |k,v| k }.map do |name, history|
   {
     id: id_from_name(name),
     name: name,
-    other_names: @names.select { |k, v| v == name and k != name }.keys.map { |n| { name: n }  },
     memberships: memberships_from(history),
-  }.reject { |k, v| v.empty? }
+  }
 end
 
 puts JSON.pretty_generate(data)
-
