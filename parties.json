@@ -1,0 +1,77 @@
+[
+  {
+    "classification": "party",
+    "id": "Alliance",
+    "name": "Alliance"
+  },
+  {
+    "classification": "party",
+    "id": "Con",
+    "name": "Conservative Party"
+  },
+  {
+    "classification": "party",
+    "id": "DUP",
+    "name": "DUP"
+  },
+  {
+    "classification": "party",
+    "id": "Green",
+    "name": "Green"
+  },
+  {
+    "classification": "party",
+    "id": "Ind",
+    "name": "Independent"
+  },
+  {
+    "classification": "party",
+    "id": "LDem",
+    "name": "Liberal Democrats"
+  },
+  {
+    "classification": "party",
+    "id": "Lab",
+    "name": "Labour Party"
+  },
+  {
+    "classification": "party",
+    "id": "PC",
+    "name": "Plaid Cymru"
+  },
+  {
+    "classification": "party",
+    "id": "Res",
+    "name": "Respect Party"
+  },
+  {
+    "classification": "party",
+    "id": "SDLP",
+    "name": "SDLP"
+  },
+  {
+    "classification": "party",
+    "id": "SF",
+    "name": "Sinn Féin"
+  },
+  {
+    "classification": "party",
+    "id": "SNP",
+    "name": "SNP"
+  },
+  {
+    "classification": "party",
+    "id": "UKIP",
+    "name": "UKIP"
+  },
+  {
+    "classification": "party",
+    "id": "UKUP",
+    "name": "UKUP"
+  },
+  {
+    "classification": "party",
+    "id": "UUP",
+    "name": "UUP"
+  }
+]

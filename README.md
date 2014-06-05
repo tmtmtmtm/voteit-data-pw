@@ -11,3 +11,5 @@ This generates data for use in a sample UK VoteIt
 3. The output of that is a series of ``make_issue.rb`` commands to
    scrape PublicWhip data and turn it into Issues json
 
+4. ``bin/parties_from_issues.rb issues/*.json > parties.json``
+
