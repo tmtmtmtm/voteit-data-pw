@@ -35,10 +35,11 @@ ARGV.each do |filename|
       @bounds[:min] = aspect['motion']['date'] if aspect['motion']['date'] < @bounds[:min]
       @bounds[:max] = aspect['motion']['date'] if aspect['motion']['date'] > @bounds[:max]
       ve['votes'].each do |vote|
-        # Resolve later multiple people with same name
         voter = vote['voter']
         partyid  = voter['party'].gsub(/ \([^\)]+\)/,'').gsub(/^whilst /,'').gsub(/^Ind .*/, 'Ind').downcase
         name = std_name(voter['name'])
+        # Hack for people with same name
+        name = "Angela C. Smith" if name == 'Angela Smith' and voter['constituency'] != 'Basildon'
         ((people[name] ||= {})[partyid] ||= []) << aspect['motion']['date']
       end
     end

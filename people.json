@@ -1141,6 +1141,17 @@
     ]
   },
   {
+    "id": "angela_c._smith",
+    "name": "Angela C. Smith",
+    "memberships": [
+      {
+        "organization_id": "lab",
+        "role": "MP",
+        "start_date": "2005-06-28"
+      }
+    ]
+  },
+  {
     "id": "angela_eagle",
     "name": "Angela Eagle",
     "other_names": [
@@ -1166,7 +1177,8 @@
     "memberships": [
       {
         "organization_id": "lab",
-        "role": "MP"
+        "role": "MP",
+        "end_date": "2010-03-30"
       }
     ]
   },
