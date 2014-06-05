@@ -15,3 +15,9 @@ This generates data for use in a sample UK VoteIt
 
 5. ``bin/people_from_issues.rb issues/*.json > people.json``
 
+6. ``for i in issues/*.json; do; basename $i; bin/motions_from_issues.rb $i > data/motions/`basename $i`; done``
+
+7. ``bin/generate_motion_file.rb data/motions/*.json > motions-all.json``
+
+8. Load that to your voteit-api server
+
