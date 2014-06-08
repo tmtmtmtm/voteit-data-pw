@@ -2,6 +2,10 @@
 
 # Generate Issues in Stancer format
 # Usage: bin/generate_stancer_data.rb data/policies/*.json > stancer.json
+#
+# Quick 'n' dirty test until this moves somewhere better:
+#   bin/generate_stancer_data.rb data/policies/1027.json > /tmp/1027.json
+#   diff t/1027.json /tmp/1027.json
 
 require 'json'
 
@@ -18,9 +22,22 @@ require 'json'
 # Normal: majority: 10 / absent: 1  / minority: 0
 
 def weights_for (aspect)
-  majority_vote = aspect['motion']['result'] == 'passed' ? "yes" : "no"
-  minority_vote = aspect['motion']['result'] == 'passed' ? "no" : "yes"
   strong = !!aspect['direction'][/\(strong\)/]
+
+  # This can undoubtedly be simplified, but let's be really explicit
+  direction = aspect['direction']
+
+  if direction.downcase.include? 'majority'
+    majority_vote = aspect['motion']['result'] == 'passed' ? "yes" : "no"
+    minority_vote = aspect['motion']['result'] == 'passed' ? "no" : "yes"
+  elsif direction.downcase.include? 'minority'
+    majority_vote = aspect['motion']['result'] == 'failed' ? "yes" : "no"
+    minority_vote = aspect['motion']['result'] == 'failed' ? "no" : "yes"
+  elsif direction.downcase.include? 'abstain'
+    abort "Should skip abstains"
+  else
+    abort "Aspect has no direction"
+  end
 
   if (strong) 
     return { 
@@ -41,7 +58,9 @@ end
 
 
 def aspects_from (aspects)
-  aspects.map { |aspect|
+  aspects.reject { |aspect| 
+    aspect['direction'].downcase.include? 'abstain' 
+  }.map { |aspect|
     {
       motion_id: aspect['motion']['id'],
       result: aspect['motion']['result'],
@@ -52,6 +71,7 @@ def aspects_from (aspects)
 end
 
 issues = ARGV.map do |filename|
+  warn "Parsing #{filename}"
   policy = JSON.parse(File.read(filename))
   { 
     # policy: policy

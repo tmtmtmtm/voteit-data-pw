@@ -13,10 +13,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -24,10 +24,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -35,10 +35,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -46,10 +46,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -57,27 +57,16 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
         "motion_id": "pw-2013-05-15-3",
         "result": "failed",
         "direction": "minority",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-07-05-44",
-        "result": "passed",
-        "direction": "abstain",
         "weights": {
           "yes": 10,
           "absent": 1,
@@ -97,146 +86,14 @@
         }
       },
       {
-        "motion_id": "pw-2013-11-08-121",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-11-08-122",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-11-22-132",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-11-22-133",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2013-11-22-134",
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-11-22-135",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-11-22-136",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
           "yes": 10,
           "absent": 1,
           "both": 1,
           "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-11-22-137",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-11-29-141",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-11-29-142",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-11-29-143",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-11-29-144",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-11-29-146",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
         }
       }
     ]
@@ -272,108 +129,9 @@
         }
       },
       {
-        "motion_id": "pw-2002-05-15-242",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2002-12-12-23",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2004-02-10-50",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2004-10-25-276",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2004-11-08-311",
         "result": "passed",
         "direction": "minority",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2005-06-29-24",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2005-10-12-54",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2005-11-22-105",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2006-03-10-185",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2006-03-17-197",
-        "result": "failed",
-        "direction": "abstain",
         "weights": {
           "no": 10,
           "absent": 1,
@@ -386,10 +144,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -397,10 +155,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -408,10 +166,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -426,9 +184,9 @@
         }
       },
       {
-        "motion_id": "pw-2008-06-09-213",
-        "result": "passed",
-        "direction": "abstain",
+        "motion_id": "pw-2008-10-28-295",
+        "result": "failed",
+        "direction": "minority",
         "weights": {
           "yes": 10,
           "absent": 1,
@@ -437,25 +195,14 @@
         }
       },
       {
-        "motion_id": "pw-2008-10-28-295",
-        "result": "failed",
-        "direction": "minority",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2008-10-28-296",
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -485,32 +232,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-09-14-351",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-09-14-352",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -518,10 +243,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -540,10 +265,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -562,10 +287,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -584,10 +309,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -595,10 +320,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -617,10 +342,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       }
     ]
@@ -638,10 +363,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -973,17 +698,6 @@
         }
       },
       {
-        "motion_id": "pw-2005-10-18-59",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2005-10-18-60",
         "result": "passed",
         "direction": "Majority (strong)",
@@ -1083,17 +797,6 @@
     ],
     "aspects": [
       {
-        "motion_id": "pw-1997-11-04-80",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-1997-11-04-81",
         "result": "passed",
         "direction": "Majority",
@@ -1138,17 +841,6 @@
         }
       },
       {
-        "motion_id": "pw-2004-03-31-121",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2004-03-31-122",
         "result": "failed",
         "direction": "Majority",
@@ -1171,17 +863,6 @@
         }
       },
       {
-        "motion_id": "pw-2004-03-31-124",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2004-03-31-125",
         "result": "passed",
         "direction": "Majority (strong)",
@@ -1189,39 +870,6 @@
           "yes": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2004-06-23-202",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2004-06-23-203",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2004-06-23-204",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -1346,28 +994,6 @@
         }
       },
       {
-        "motion_id": "pw-2001-11-21-73",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2001-11-21-74",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2001-11-21-75",
         "result": "passed",
         "direction": "Majority",
@@ -1401,31 +1027,9 @@
         }
       },
       {
-        "motion_id": "pw-2001-11-21-78",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2001-11-21-79",
         "result": "passed",
         "direction": "Majority",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2001-11-26-80",
-        "result": "passed",
-        "direction": "abstain",
         "weights": {
           "yes": 10,
           "absent": 1,
@@ -1503,17 +1107,6 @@
         "motion_id": "pw-2001-12-12-106",
         "result": "passed",
         "direction": "Majority",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2001-12-12-107",
-        "result": "passed",
-        "direction": "abstain",
         "weights": {
           "yes": 10,
           "absent": 1,
@@ -1613,17 +1206,6 @@
         "motion_id": "pw-2005-02-23-95",
         "result": "passed",
         "direction": "Majority",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2005-02-28-100",
-        "result": "passed",
-        "direction": "abstain",
         "weights": {
           "yes": 10,
           "absent": 1,
@@ -1742,17 +1324,6 @@
         }
       },
       {
-        "motion_id": "pw-2005-03-09-127",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2005-03-09-128",
         "result": "passed",
         "direction": "Majority (strong)",
@@ -1863,17 +1434,6 @@
         }
       },
       {
-        "motion_id": "pw-2005-03-10-140",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2005-03-10-141",
         "result": "passed",
         "direction": "Majority",
@@ -1973,17 +1533,6 @@
         }
       },
       {
-        "motion_id": "pw-2005-11-03-78",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2005-11-09-83",
         "result": "passed",
         "direction": "Majority",
@@ -1998,17 +1547,6 @@
         "motion_id": "pw-2005-11-09-84",
         "result": "failed",
         "direction": "minority",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2005-11-09-85",
-        "result": "passed",
-        "direction": "abstain",
         "weights": {
           "yes": 10,
           "absent": 1,
@@ -2127,17 +1665,6 @@
         }
       },
       {
-        "motion_id": "pw-2009-11-09-244",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2010-02-08-72",
         "result": "passed",
         "direction": "Majority",
@@ -2245,17 +1772,6 @@
           "absent": 25,
           "both": 25,
           "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2007-11-29-14",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
         }
       },
       {
@@ -2523,17 +2039,6 @@
         }
       },
       {
-        "motion_id": "pw-2008-02-26-100",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2008-02-27-102",
         "result": "failed",
         "direction": "Majority",
@@ -2553,17 +2058,6 @@
           "absent": 1,
           "both": 1,
           "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2008-02-27-104",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
         }
       },
       {
@@ -2600,42 +2094,9 @@
         }
       },
       {
-        "motion_id": "pw-2008-03-04-112",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2008-03-04-113",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2008-03-04-114",
         "result": "failed",
         "direction": "Majority",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2008-03-04-115",
-        "result": "failed",
-        "direction": "abstain",
         "weights": {
           "no": 10,
           "absent": 1,
@@ -2652,17 +2113,6 @@
           "absent": 25,
           "both": 25,
           "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2008-03-05-117",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
         }
       },
       {
@@ -2710,25 +2160,14 @@
         }
       },
       {
-        "motion_id": "pw-2008-10-08-271",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2009-03-10-57",
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -2754,86 +2193,9 @@
         }
       },
       {
-        "motion_id": "pw-2010-10-13-75",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2010-11-10-115",
         "result": "passed",
         "direction": "minority",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-12-07-145",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-01-11-161",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-01-11-162",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-01-24-179",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-01-24-180",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-01-25-181",
-        "result": "failed",
-        "direction": "abstain",
         "weights": {
           "no": 10,
           "absent": 1,
@@ -2853,35 +2215,13 @@
         }
       },
       {
-        "motion_id": "pw-2011-01-26-183",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2011-02-09-194",
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-03-18-234",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
           "yes": 0
         }
       },
@@ -2897,42 +2237,9 @@
         }
       },
       {
-        "motion_id": "pw-2011-05-04-265",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2011-05-24-286",
         "result": "passed",
         "direction": "Majority",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-07-11-318",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-07-11-319",
-        "result": "passed",
-        "direction": "abstain",
         "weights": {
           "yes": 10,
           "absent": 1,
@@ -2945,10 +2252,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -2967,10 +2274,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -2985,69 +2292,14 @@
         }
       },
       {
-        "motion_id": "pw-2012-06-27-30",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-07-12-52",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-09-10-60",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-09-10-61",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-10-17-75",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2012-10-31-91",
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
+          "no": 10,
           "absent": 1,
           "both": 1,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -3066,10 +2318,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -3077,10 +2329,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -3088,10 +2340,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -3251,10 +2503,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -3262,10 +2514,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -3284,10 +2536,10 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
+          "no": 10,
           "absent": 1,
           "both": 1,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -3295,20 +2547,9 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2000-06-27-239",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
           "yes": 0
         }
       },
@@ -3317,10 +2558,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -3361,10 +2602,10 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
+          "no": 10,
           "absent": 1,
           "both": 1,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -3379,36 +2620,14 @@
         }
       },
       {
-        "motion_id": "pw-2006-03-15-193",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2006-05-23-247",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2006-05-23-248",
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -3416,32 +2635,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2006-05-24-250",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2006-05-24-251",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -3471,10 +2668,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -3507,17 +2704,6 @@
           "yes": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-07-19-31",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -3713,10 +2899,10 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
+          "no": 10,
           "absent": 1,
           "both": 1,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -3728,17 +2914,6 @@
           "absent": 25,
           "both": 25,
           "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2007-03-07-71",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
         }
       },
       {
@@ -3773,17 +2948,6 @@
           "both": 25,
           "no": 0
         }
-      },
-      {
-        "motion_id": "pw-2013-10-18-105",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
       }
     ]
   },
@@ -3797,25 +2961,14 @@
     ],
     "aspects": [
       {
-        "motion_id": "pw-1999-06-23-218",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2010-02-09-78",
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -3830,47 +2983,14 @@
         }
       },
       {
-        "motion_id": "pw-2010-09-06-50",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-09-06-51",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2010-10-12-68",
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-10-18-83",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -3894,17 +3014,6 @@
       "home"
     ],
     "aspects": [
-      {
-        "motion_id": "pw-2002-06-11-263",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
       {
         "motion_id": "pw-2002-06-11-264",
         "result": "passed",
@@ -4027,17 +3136,6 @@
         }
       },
       {
-        "motion_id": "pw-2003-12-17-18",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2004-03-01-61",
         "result": "failed",
         "direction": "Majority",
@@ -4093,28 +3191,6 @@
         }
       },
       {
-        "motion_id": "pw-2005-07-05-29",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2005-11-16-99",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2005-11-16-100",
         "result": "failed",
         "direction": "Majority",
@@ -4133,17 +3209,6 @@
           "yes": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2006-03-29-204",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -4180,25 +3245,14 @@
     ],
     "aspects": [
       {
-        "motion_id": "pw-2008-03-19-131",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2009-02-11-36",
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -4206,10 +3260,10 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
+          "no": 10,
           "absent": 1,
           "both": 1,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -4257,17 +3311,6 @@
     ],
     "aspects": [
       {
-        "motion_id": "pw-2003-01-20-56",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2004-03-02-68",
         "result": "failed",
         "direction": "Majority",
@@ -4276,28 +3319,6 @@
           "absent": 1,
           "both": 1,
           "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2007-04-17-89",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2007-04-17-90",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
         }
       },
       {
@@ -4349,10 +3370,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -4411,28 +3432,6 @@
         }
       },
       {
-        "motion_id": "pw-2010-07-13-20",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-07-13-21",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2010-07-13-22",
         "result": "passed",
         "direction": "Majority (strong)",
@@ -4466,17 +3465,6 @@
         }
       },
       {
-        "motion_id": "pw-2011-06-22-305",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2011-06-28-308",
         "result": "failed",
         "direction": "Majority (strong)",
@@ -4484,17 +3472,6 @@
           "no": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-06-28-309",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
           "yes": 0
         }
       },
@@ -4598,17 +3575,6 @@
         }
       },
       {
-        "motion_id": "pw-2012-07-03-39",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2012-09-05-57",
         "result": "failed",
         "direction": "Majority",
@@ -4642,17 +3608,6 @@
     ],
     "aspects": [
       {
-        "motion_id": "pw-2010-09-06-50",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2010-09-06-51",
         "result": "passed",
         "direction": "Majority (strong)",
@@ -4660,39 +3615,6 @@
           "yes": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-09-06-52",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-10-12-65",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-10-19-84",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -4726,17 +3648,6 @@
           "no": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-11-01-107",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
           "yes": 0
         }
       },
@@ -4800,10 +3711,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       }
     ]
@@ -4902,17 +3813,6 @@
           "both": 1,
           "no": 0
         }
-      },
-      {
-        "motion_id": "pw-2011-06-20-299",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
       }
     ]
   },
@@ -4974,10 +3874,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -5003,25 +3903,14 @@
         }
       },
       {
-        "motion_id": "pw-2010-11-01-105",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2013-01-29-146",
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       }
     ]
@@ -5034,28 +3923,6 @@
       "health"
     ],
     "aspects": [
-      {
-        "motion_id": "pw-2003-01-08-42",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2003-01-08-43",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
       {
         "motion_id": "pw-2003-05-07-177",
         "result": "failed",
@@ -5086,28 +3953,6 @@
           "no": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2003-07-08-281",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2003-07-08-282",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
           "yes": 0
         }
       },
@@ -5144,17 +3989,6 @@
       "welfare"
     ],
     "aspects": [
-      {
-        "motion_id": "pw-2010-11-08-111",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
       {
         "motion_id": "pw-2010-11-09-113",
         "result": "failed",
@@ -5229,50 +4063,6 @@
           "no": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-06-13-290",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-06-15-294",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-06-15-295",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-06-15-296",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
           "yes": 0
         }
       },
@@ -5376,17 +4166,6 @@
         }
       },
       {
-        "motion_id": "pw-2012-09-11-62",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2013-01-08-128",
         "result": "failed",
         "direction": "Majority",
@@ -5405,17 +4184,6 @@
           "yes": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-01-08-130",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -5486,25 +4254,14 @@
         }
       },
       {
-        "motion_id": "pw-2014-01-13-175",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2014-01-17-182",
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -5563,17 +4320,6 @@
         }
       },
       {
-        "motion_id": "pw-2010-06-29-13",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2011-02-09-198",
         "result": "passed",
         "direction": "Majority (strong)",
@@ -5581,39 +4327,6 @@
           "yes": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-01-10-414",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-01-10-415",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-02-08-470",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -5732,10 +4445,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -5765,10 +4478,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -5776,10 +4489,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -5787,10 +4500,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -5798,10 +4511,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -5809,10 +4522,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -5820,10 +4533,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -5831,43 +4544,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-06-20-20",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
           "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-07-10-55",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-07-10-56",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
         }
       }
     ]
@@ -5886,10 +4566,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -5897,6 +4577,17 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
+          "no": 50,
+          "absent": 25,
+          "both": 25,
+          "yes": 0
+        }
+      },
+      {
+        "motion_id": "pw-2013-01-21-136",
+        "result": "failed",
+        "direction": "minority (strong)",
+        "weights": {
           "yes": 50,
           "absent": 25,
           "both": 25,
@@ -5904,19 +4595,8 @@
         }
       },
       {
-        "motion_id": "pw-2013-01-08-130",
+        "motion_id": "pw-2013-01-21-137",
         "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-01-21-136",
-        "result": "failed",
         "direction": "minority (strong)",
         "weights": {
           "no": 50,
@@ -5926,25 +4606,14 @@
         }
       },
       {
-        "motion_id": "pw-2013-01-21-137",
-        "result": "passed",
-        "direction": "minority (strong)",
-        "weights": {
-          "yes": 50,
-          "absent": 25,
-          "both": 25,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2013-01-21-138",
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       }
     ]
@@ -5957,17 +4626,6 @@
       "health"
     ],
     "aspects": [
-      {
-        "motion_id": "pw-2010-11-17-120",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
       {
         "motion_id": "pw-2011-01-31-185",
         "result": "passed",
@@ -5999,17 +4657,6 @@
           "absent": 25,
           "both": 25,
           "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-06-21-301",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
         }
       },
       {
@@ -6071,26 +4718,15 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
         "motion_id": "pw-2011-09-06-338",
         "result": "failed",
-        "direction": "minority (strong)",
-        "weights": {
-          "no": 50,
-          "absent": 25,
-          "both": 25,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-09-07-342",
-        "result": "passed",
         "direction": "minority (strong)",
         "weights": {
           "yes": 50,
@@ -6100,14 +4736,25 @@
         }
       },
       {
-        "motion_id": "pw-2011-10-26-377",
-        "result": "failed",
+        "motion_id": "pw-2011-09-07-342",
+        "result": "passed",
         "direction": "minority (strong)",
         "weights": {
           "no": 50,
           "absent": 25,
           "both": 25,
           "yes": 0
+        }
+      },
+      {
+        "motion_id": "pw-2011-10-26-377",
+        "result": "failed",
+        "direction": "minority (strong)",
+        "weights": {
+          "yes": 50,
+          "absent": 25,
+          "both": 25,
+          "no": 0
         }
       },
       {
@@ -6115,10 +4762,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -6126,10 +4773,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -6137,10 +4784,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       }
     ]
@@ -6173,17 +4820,6 @@
           "yes": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-09-03-73",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -6228,17 +4864,6 @@
           "yes": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-10-08-91",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -6307,17 +4932,6 @@
       "business"
     ],
     "aspects": [
-      {
-        "motion_id": "pw-2010-07-12-16",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
       {
         "motion_id": "pw-2011-03-29-237",
         "result": "passed",
@@ -6422,20 +5036,9 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-04-08-245",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
           "yes": 0
         }
       }
@@ -6592,85 +5195,8 @@
     ],
     "aspects": [
       {
-        "motion_id": "pw-2011-03-29-237",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-07-04-313",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2012-03-26-503",
         "result": "passed",
-        "direction": "minority (strong)",
-        "weights": {
-          "yes": 50,
-          "absent": 25,
-          "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-03-26-506",
-        "result": "passed",
-        "direction": "minority (strong)",
-        "weights": {
-          "yes": 50,
-          "absent": 25,
-          "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-04-18-517",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-04-18-518",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-07-02-35",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-11-28-105",
-        "result": "failed",
         "direction": "minority (strong)",
         "weights": {
           "no": 50,
@@ -6680,8 +5206,19 @@
         }
       },
       {
-        "motion_id": "pw-2013-03-25-196",
+        "motion_id": "pw-2012-03-26-506",
         "result": "passed",
+        "direction": "minority (strong)",
+        "weights": {
+          "no": 50,
+          "absent": 25,
+          "both": 25,
+          "yes": 0
+        }
+      },
+      {
+        "motion_id": "pw-2012-11-28-105",
+        "result": "failed",
         "direction": "minority (strong)",
         "weights": {
           "yes": 50,
@@ -6691,57 +5228,13 @@
         }
       },
       {
-        "motion_id": "pw-2013-03-25-197",
+        "motion_id": "pw-2013-03-25-196",
         "result": "passed",
-        "direction": "abstain",
+        "direction": "minority (strong)",
         "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-04-18-215",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-07-01-37",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-04-08-246",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-04-08-247",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
+          "no": 50,
+          "absent": 25,
+          "both": 25,
           "yes": 0
         }
       }
@@ -6821,17 +5314,6 @@
         }
       },
       {
-        "motion_id": "pw-2012-05-21-6",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2012-05-21-7",
         "result": "passed",
         "direction": "Majority (strong)",
@@ -6886,17 +5368,6 @@
         }
       },
       {
-        "motion_id": "pw-2012-01-31-446",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2012-01-31-448",
         "result": "passed",
         "direction": "Majority (strong)",
@@ -6908,28 +5379,6 @@
         }
       },
       {
-        "motion_id": "pw-2012-01-31-449",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-05-21-5",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2012-05-21-7",
         "result": "passed",
         "direction": "Majority (strong)",
@@ -6938,17 +5387,6 @@
           "absent": 25,
           "both": 25,
           "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-10-31-90",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
         }
       }
     ]
@@ -6966,10 +5404,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -6977,10 +5415,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -6988,10 +5426,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7010,10 +5448,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7021,10 +5459,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7032,10 +5470,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7043,10 +5481,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7054,10 +5492,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7065,21 +5503,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-02-07-461",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7087,10 +5514,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7098,10 +5525,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7109,10 +5536,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7120,10 +5547,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7131,10 +5558,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7142,10 +5569,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7153,10 +5580,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       }
     ]
@@ -7169,17 +5596,6 @@
       "social"
     ],
     "aspects": [
-      {
-        "motion_id": "pw-2013-02-05-152",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
       {
         "motion_id": "pw-2013-02-05-153",
         "result": "passed",
@@ -7210,50 +5626,6 @@
           "yes": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-03-05-216",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-03-05-217",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-03-05-218",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-03-05-219",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -7312,17 +5684,6 @@
         }
       },
       {
-        "motion_id": "pw-2010-07-19-31",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2010-07-21-37",
         "result": "failed",
         "direction": "Majority",
@@ -7341,50 +5702,6 @@
           "no": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-07-21-39",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-07-21-40",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-07-21-41",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-07-21-42",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
           "yes": 0
         }
       },
@@ -7443,36 +5760,14 @@
     ],
     "aspects": [
       {
-        "motion_id": "pw-2001-11-01-48",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2002-09-24-319",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2002-11-25-6",
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7484,17 +5779,6 @@
           "absent": 1,
           "both": 1,
           "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2003-02-26-97",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
         }
       },
       {
@@ -7517,17 +5801,6 @@
           "absent": 25,
           "both": 25,
           "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2010-09-09-59",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
         }
       },
       {
@@ -7557,10 +5830,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7568,10 +5841,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       }
     ]
@@ -7604,17 +5877,6 @@
           "absent": 25,
           "both": 25,
           "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-04-17-214",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
         }
       },
       {
@@ -7698,37 +5960,15 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       },
       {
         "motion_id": "pw-2013-04-15-201",
         "result": "passed",
-        "direction": "minority (strong)",
-        "weights": {
-          "yes": 50,
-          "absent": 25,
-          "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-07-02-43",
-        "result": "passed",
-        "direction": "minority (strong)",
-        "weights": {
-          "yes": 50,
-          "absent": 25,
-          "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-04-01-241",
-        "result": "failed",
         "direction": "minority (strong)",
         "weights": {
           "no": 50,
@@ -7738,8 +5978,19 @@
         }
       },
       {
-        "motion_id": "pw-2014-04-01-242",
+        "motion_id": "pw-2013-07-02-43",
         "result": "passed",
+        "direction": "minority (strong)",
+        "weights": {
+          "no": 50,
+          "absent": 25,
+          "both": 25,
+          "yes": 0
+        }
+      },
+      {
+        "motion_id": "pw-2014-04-01-241",
+        "result": "failed",
         "direction": "minority (strong)",
         "weights": {
           "yes": 50,
@@ -7749,14 +6000,25 @@
         }
       },
       {
+        "motion_id": "pw-2014-04-01-242",
+        "result": "passed",
+        "direction": "minority (strong)",
+        "weights": {
+          "no": 50,
+          "absent": 25,
+          "both": 25,
+          "yes": 0
+        }
+      },
+      {
         "motion_id": "pw-2014-04-01-243",
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       }
     ]
@@ -7774,10 +6036,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7785,10 +6047,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7796,10 +6058,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7807,10 +6069,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7818,10 +6080,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       }
     ]
@@ -7839,6 +6101,17 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
+          "no": 10,
+          "absent": 1,
+          "both": 1,
+          "yes": 0
+        }
+      },
+      {
+        "motion_id": "pw-2010-07-13-17",
+        "result": "failed",
+        "direction": "minority",
+        "weights": {
           "yes": 10,
           "absent": 1,
           "both": 1,
@@ -7846,8 +6119,8 @@
         }
       },
       {
-        "motion_id": "pw-2010-07-13-17",
-        "result": "failed",
+        "motion_id": "pw-2010-07-13-22",
+        "result": "passed",
         "direction": "minority",
         "weights": {
           "no": 10,
@@ -7857,25 +6130,14 @@
         }
       },
       {
-        "motion_id": "pw-2010-07-13-22",
-        "result": "passed",
-        "direction": "minority",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2010-07-20-32",
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
+          "no": 10,
           "absent": 1,
           "both": 1,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -7883,20 +6145,9 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-02-07-192",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -7905,20 +6156,9 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-03-16-232",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -7934,31 +6174,9 @@
         }
       },
       {
-        "motion_id": "pw-2011-05-03-262",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2011-06-22-304",
         "result": "failed",
         "direction": "minority",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-06-22-305",
-        "result": "passed",
-        "direction": "abstain",
         "weights": {
           "yes": 10,
           "absent": 1,
@@ -7971,10 +6189,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7982,10 +6200,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -7993,10 +6211,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -8015,20 +6233,9 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2012-11-12-101",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -8048,10 +6255,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       }
     ]
@@ -8201,10 +6408,10 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
+          "no": 10,
           "absent": 1,
           "both": 1,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -8234,43 +6441,10 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-04-01-241",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
           "no": 10,
           "absent": 1,
           "both": 1,
           "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-04-01-242",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-04-01-243",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
         }
       }
     ]
@@ -8348,17 +6522,6 @@
           "both": 1,
           "no": 0
         }
-      },
-      {
-        "motion_id": "pw-2012-10-24-86",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
       }
     ]
   },
@@ -8403,25 +6566,14 @@
     ],
     "aspects": [
       {
-        "motion_id": "pw-2011-02-16-209",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2011-10-12-365",
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -8429,10 +6581,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -8440,10 +6592,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -8451,10 +6603,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -8462,10 +6614,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -8473,10 +6625,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -8484,10 +6636,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -8495,10 +6647,10 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       }
     ]
@@ -8512,36 +6664,14 @@
     ],
     "aspects": [
       {
-        "motion_id": "pw-2011-07-05-316",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2011-09-14-351",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2011-11-23-400",
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -8549,10 +6679,10 @@
         "result": "passed",
         "direction": "minority (strong)",
         "weights": {
-          "yes": 50,
+          "no": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -8567,36 +6697,14 @@
         }
       },
       {
-        "motion_id": "pw-2013-01-16-135",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-06-03-14",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
         "motion_id": "pw-2013-06-04-19",
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
+          "yes": 50,
           "absent": 25,
           "both": 25,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -8607,17 +6715,6 @@
           "yes": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2013-12-04-151",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       }
@@ -8637,10 +6734,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -8973,17 +7070,6 @@
         }
       },
       {
-        "motion_id": "pw-2013-02-05-152",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
         "motion_id": "pw-2013-02-05-153",
         "result": "passed",
         "direction": "Majority",
@@ -9024,39 +7110,6 @@
           "yes": 50,
           "absent": 25,
           "both": 25,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-03-05-217",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-03-05-218",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2014-03-05-219",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
           "no": 0
         }
       },
@@ -9120,10 +7173,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9131,10 +7184,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9142,10 +7195,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9175,10 +7228,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9186,10 +7239,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9251,10 +7304,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9262,10 +7315,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9273,10 +7326,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9284,10 +7337,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9295,10 +7348,10 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
+          "no": 10,
           "absent": 1,
           "both": 1,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -9306,10 +7359,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9317,10 +7370,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9328,21 +7381,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2004-07-20-234",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9350,10 +7392,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9361,10 +7403,10 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
+          "no": 10,
           "absent": 1,
           "both": 1,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -9372,10 +7414,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9383,10 +7425,10 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
+          "no": 10,
           "absent": 1,
           "both": 1,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -9394,10 +7436,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9405,10 +7447,10 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
+          "no": 10,
           "absent": 1,
           "both": 1,
-          "no": 0
+          "yes": 0
         }
       },
       {
@@ -9416,10 +7458,10 @@
         "result": "failed",
         "direction": "minority",
         "weights": {
-          "no": 10,
+          "yes": 10,
           "absent": 1,
           "both": 1,
-          "yes": 0
+          "no": 0
         }
       },
       {
@@ -9427,32 +7469,10 @@
         "result": "passed",
         "direction": "minority",
         "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2009-06-24-155",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
           "no": 10,
           "absent": 1,
           "both": 1,
           "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2009-06-24-156",
-        "result": "passed",
-        "direction": "abstain",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
         }
       }
     ]
@@ -9466,17 +7486,6 @@
       "foreignpolicy"
     ],
     "aspects": [
-      {
-        "motion_id": "pw-2000-06-07-220",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
       {
         "motion_id": "pw-2007-03-14-77",
         "result": "failed",
@@ -9498,17 +7507,6 @@
           "both": 25,
           "no": 0
         }
-      },
-      {
-        "motion_id": "pw-2010-06-08-3",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
       }
     ]
   },
@@ -9525,72 +7523,6 @@
         "result": "failed",
         "direction": "minority (strong)",
         "weights": {
-          "no": 50,
-          "absent": 25,
-          "both": 25,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2007-04-20-95",
-        "result": "failed",
-        "direction": "minority",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2007-05-18-118",
-        "result": "failed",
-        "direction": "abstain",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2007-05-18-119",
-        "result": "passed",
-        "direction": "minority",
-        "weights": {
-          "yes": 10,
-          "absent": 1,
-          "both": 1,
-          "no": 0
-        }
-      },
-      {
-        "motion_id": "pw-2007-05-18-120",
-        "result": "failed",
-        "direction": "minority",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2007-05-18-121",
-        "result": "failed",
-        "direction": "minority",
-        "weights": {
-          "no": 10,
-          "absent": 1,
-          "both": 1,
-          "yes": 0
-        }
-      },
-      {
-        "motion_id": "pw-2007-05-18-122",
-        "result": "passed",
-        "direction": "minority (strong)",
-        "weights": {
           "yes": 50,
           "absent": 25,
           "both": 25,
@@ -9598,8 +7530,8 @@
         }
       },
       {
-        "motion_id": "pw-2007-05-18-123",
-        "result": "passed",
+        "motion_id": "pw-2007-04-20-95",
+        "result": "failed",
         "direction": "minority",
         "weights": {
           "yes": 10,
@@ -9609,14 +7541,69 @@
         }
       },
       {
-        "motion_id": "pw-2008-07-03-253",
+        "motion_id": "pw-2007-05-18-119",
         "result": "passed",
+        "direction": "minority",
+        "weights": {
+          "no": 10,
+          "absent": 1,
+          "both": 1,
+          "yes": 0
+        }
+      },
+      {
+        "motion_id": "pw-2007-05-18-120",
+        "result": "failed",
         "direction": "minority",
         "weights": {
           "yes": 10,
           "absent": 1,
           "both": 1,
           "no": 0
+        }
+      },
+      {
+        "motion_id": "pw-2007-05-18-121",
+        "result": "failed",
+        "direction": "minority",
+        "weights": {
+          "yes": 10,
+          "absent": 1,
+          "both": 1,
+          "no": 0
+        }
+      },
+      {
+        "motion_id": "pw-2007-05-18-122",
+        "result": "passed",
+        "direction": "minority (strong)",
+        "weights": {
+          "no": 50,
+          "absent": 25,
+          "both": 25,
+          "yes": 0
+        }
+      },
+      {
+        "motion_id": "pw-2007-05-18-123",
+        "result": "passed",
+        "direction": "minority",
+        "weights": {
+          "no": 10,
+          "absent": 1,
+          "both": 1,
+          "yes": 0
+        }
+      },
+      {
+        "motion_id": "pw-2008-07-03-253",
+        "result": "passed",
+        "direction": "minority",
+        "weights": {
+          "no": 10,
+          "absent": 1,
+          "both": 1,
+          "yes": 0
         }
       },
       {

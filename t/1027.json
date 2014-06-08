@@ -1,0 +1,101 @@
+[
+  {
+    "id": "PW-1027",
+    "text": "Referendum on the UK's membership of the EU — For",
+    "html": "a referendum on the UK&rsquo;s membership of the <b>EU</b>",
+    "categories": [
+      "summary",
+      "foreignpolicy"
+    ],
+    "aspects": [
+      {
+        "motion_id": "pw-2008-03-04-112",
+        "result": "failed",
+        "direction": "minority",
+        "weights": {
+          "yes": 10,
+          "absent": 1,
+          "both": 1,
+          "no": 0
+        }
+      },
+      {
+        "motion_id": "pw-2008-03-05-117",
+        "result": "failed",
+        "direction": "minority",
+        "weights": {
+          "yes": 10,
+          "absent": 1,
+          "both": 1,
+          "no": 0
+        }
+      },
+      {
+        "motion_id": "pw-2008-03-05-118",
+        "result": "failed",
+        "direction": "minority",
+        "weights": {
+          "yes": 10,
+          "absent": 1,
+          "both": 1,
+          "no": 0
+        }
+      },
+      {
+        "motion_id": "pw-2011-02-01-186",
+        "result": "failed",
+        "direction": "minority (strong)",
+        "weights": {
+          "yes": 50,
+          "absent": 25,
+          "both": 25,
+          "no": 0
+        }
+      },
+      {
+        "motion_id": "pw-2011-10-24-372",
+        "result": "failed",
+        "direction": "minority (strong)",
+        "weights": {
+          "yes": 50,
+          "absent": 25,
+          "both": 25,
+          "no": 0
+        }
+      },
+      {
+        "motion_id": "pw-2013-05-15-3",
+        "result": "failed",
+        "direction": "minority",
+        "weights": {
+          "yes": 10,
+          "absent": 1,
+          "both": 1,
+          "no": 0
+        }
+      },
+      {
+        "motion_id": "pw-2013-07-05-45",
+        "result": "passed",
+        "direction": "Majority (strong)",
+        "weights": {
+          "yes": 50,
+          "absent": 25,
+          "both": 25,
+          "no": 0
+        }
+      },
+      {
+        "motion_id": "pw-2013-11-22-134",
+        "result": "failed",
+        "direction": "minority",
+        "weights": {
+          "yes": 10,
+          "absent": 1,
+          "both": 1,
+          "no": 0
+        }
+      }
+    ]
+  }
+]
