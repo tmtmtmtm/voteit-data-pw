@@ -19,8 +19,8 @@ Stancer.
 
 7. ``bin/generate_motion_file.rb data/motions/*.json > motions-all.json``
 
-8. ``bin/generate_stancer_data.rb data/policies/*.json > stancer.json``
+8. ``bin/generate_stancer_data.rb data/policies/*.json > issues.json``
 
 9. Load motions-all.json into your [voteit-api server](https://github.com/tmtmtmtm/voteit-api) 
 
-10. Load stancer.json into your viewing application (e.g. [stance-viewer-uk](https://github.com/tmtmtmtm/stance-viewer-uk))
+10. Load issues.json into your Stancer (e.g. [stancer-pw](https://github.com/tmtmtmtm/stancer-pw)
