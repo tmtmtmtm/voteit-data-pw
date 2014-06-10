@@ -1,6 +1,7 @@
 # UK Vote Data
 
-This generates data for use in a sample UK VoteIt
+Turn UK voting data from PublicWhip into JSON suitable for use with a
+Stancer.
 
 ## Usage
 
@@ -22,6 +23,4 @@ This generates data for use in a sample UK VoteIt
 
 9. Load motions-all.json into your [voteit-api server](https://github.com/tmtmtmtm/voteit-api) 
 
-10. Load stancer.json into your viewing application (e.g. [stancer-uk](https://github.com/tmtmtmtm/stancer-uk))
-
-
+10. Load stancer.json into your viewing application (e.g. [stance-viewer-uk](https://github.com/tmtmtmtm/stance-viewer-uk))
