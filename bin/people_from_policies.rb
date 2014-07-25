@@ -8,7 +8,6 @@ require 'json'
 require 'set'
 require 'i18n'
 
-people = {}
 @bounds = {
   min: '2100-01-01',
   max: '1900-01-01',
@@ -27,6 +26,32 @@ def std_name (orig)
 end
 
 
+def id_from_name(name)
+  I18n.transliterate(name).gsub(/[ \-]/,'_').gsub(/['.]/,'').downcase
+end
+
+def memberships_from(history)
+  history.group_by { |hi| hi[:partyid] }.map { |party, his|
+    m = {
+      organization_id: party,
+      role: "MP",
+      # area: { name: constituency }
+    }
+    span = his.map { |h| h[:date] }.sort
+    m[:start_date] = span.first if span.first > @bounds[:min]
+    m[:end_date]   = span.last  if span.last  < @bounds[:max]
+    m
+  }
+end
+
+def names_of (name)
+  data = { 
+    name: name,
+    other_names: '',
+  }
+end
+
+people = []
 ARGV.each do |filename|
   warn "Reading #{filename}"
   json = JSON.parse(File.read(filename));
@@ -42,38 +67,18 @@ ARGV.each do |filename|
         name = "Gareth R. Thomas" if name == 'Gareth Thomas' and voter['constituency'] == 'Harrow West'
         name = "Angela C. Smith" if name == 'Angela Smith' and voter['constituency'] != 'Basildon'
         name = "Dr Alan Williams" if name == 'Alan Williams' and voter['constituency'][/Carmarthen/]
-        ((people[name] ||= {})[partyid] ||= []) << aspect['motion']['date']
+
+        people << {
+          name: name,
+          partyid: partyid,
+          date: aspect['motion']['date'],
+        }
       end
     end
   end
 end
 
-def id_from_name(name)
-  I18n.transliterate(name).gsub(/[ \-]/,'_').gsub(/['.]/,'').downcase
-end
-
-def memberships_from(history)
-  history.map { |partyid, dates|
-    m = {
-      organization_id: partyid,
-      role: "MP",
-      # area: { name: constituency }
-    }
-    span = dates.sort
-    m[:start_date] = span.first if span.first > @bounds[:min]
-    m[:end_date]   = span.last  if span.last  < @bounds[:max]
-    m
-  }
-end
-
-def names_of (name)
-  data = { 
-    name: name,
-    other_names: '',
-  }
-end
-
-data = people.sort_by { |k,v| k }.map do |name, history|
+data = people.group_by { |p| p[:name] }.sort_by { |k,vs| k }.map do |name, history|
   {
     id: id_from_name(name),
     name: name,
