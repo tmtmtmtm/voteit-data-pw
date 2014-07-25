@@ -31,11 +31,11 @@ def id_from_name(name)
 end
 
 def memberships_from(history)
-  history.group_by { |hi| hi[:partyid] }.map { |party, his|
+  history.group_by { |hi| [hi[:partyid], hi[:constituency]] }.map { |pc, his|
     m = {
-      organization_id: party,
+      organization_id: pc.first,
       role: "MP",
-      # area: { name: constituency }
+      area: { name: pc.last }
     }
     span = his.map { |h| h[:date] }.sort
     m[:start_date] = span.first if span.first > @bounds[:min]
@@ -71,6 +71,7 @@ ARGV.each do |filename|
         people << {
           name: name,
           partyid: partyid,
+          constituency: voter['constituency'],
           date: aspect['motion']['date'],
         }
       end
