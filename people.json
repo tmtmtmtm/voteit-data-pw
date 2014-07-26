@@ -419,9 +419,6 @@
     "name": "Alan Williams",
     "other_names": [
       {
-        "name": "Dr Alan Williams"
-      },
-      {
         "name": "Mr Alan Williams"
       }
     ],
@@ -1443,6 +1440,11 @@
   {
     "id": "angela_c_smith",
     "name": "Angela C. Smith",
+    "other_names": [
+      {
+        "name": "Angela Smith"
+      }
+    ],
     "memberships": [
       {
         "organization_id": "lab",
@@ -6901,6 +6903,14 @@
   {
     "id": "gareth_r_thomas",
     "name": "Gareth R. Thomas",
+    "other_names": [
+      {
+        "name": "Gareth Thomas"
+      },
+      {
+        "name": "Mr Gareth Thomas"
+      }
+    ],
     "memberships": [
       {
         "organization_id": "lab",

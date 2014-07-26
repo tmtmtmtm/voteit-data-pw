@@ -4,26 +4,60 @@
 #
 # Usage: bin/people_from_policies.rb data/policies/*.json > people.json
 
+# If a constituencies.csv file exists, mapping constituencies to which 
+# area they're in, include that info too. This can be downloaded from
+# https://morph.io/tmtmtmtm/uk_parliamentary_constituencies
+
 require 'json'
 require 'set'
 require 'i18n'
+require 'csv'
 
-@names = {}
-def std_name (orig)
-  if @names[orig].nil?
-    std = orig.sub(/^Earl of /,'').sub(/^Lady Lady /,'Lady ')
+class MP
+  attr_accessor :id, :name, :other_names
+
+  @@mps = {}
+  def self.find (record)
+    std = standardised_name(record['name'])
+    # Hack for people with same name
+    std = "Gareth R. Thomas" if std == 'Gareth Thomas' and record['constituency'] == 'Harrow West'
+    std = "Angela C. Smith"  if std == 'Angela Smith'  and record['constituency'] != 'Basildon'
+    std = "Dr Alan Williams" if std == 'Alan Williams' and record['constituency'][/Carmarthen/]
+
+    id = self.id_from_name(std)
+    @@mps[id] ||= MP.new(id, std)
+    @@mps[id].add_name(record['name'])
+    @@mps[id]
+  end
+
+
+  def initialize (id, name)
+    @id = id
+    @name = name
+    @other_names = Set.new
+  end
+
+  def add_name(name)
+    return if name == @name 
+    @other_names << name
+  end
+
+  private
+
+  def self.standardised_name (name)
+    std = name.sub(/^Earl of /,'').sub(/^Lady Lady /,'Lady ')
     %w(Hon. Reverend Professor Viscount Sir Dr Miss Mrs Mr Ms).each do |prefix| 
       std.sub!(/^#{prefix} /,'')
     end
-    @names[orig] = std
+    return std
   end
-  return @names[orig] 
+
+  def self.id_from_name(name)
+    I18n.transliterate(name).gsub(/[ \-]/,'_').gsub(/['.]/,'').downcase
+  end
+
 end
 
-
-def id_from_name(name)
-  I18n.transliterate(name).gsub(/[ \-]/,'_').gsub(/['.]/,'').downcase
-end
 
 def memberships_from(history)
   history.group_by { |hi| [hi[:partyid], hi[:constituency]] }.map { |pc, his|
@@ -39,13 +73,6 @@ def memberships_from(history)
   }
 end
 
-def names_of (name)
-  data = { 
-    name: name,
-    other_names: '',
-  }
-end
-
 people = []
 ARGV.each do |filename|
   warn "Reading #{filename}"
@@ -55,14 +82,10 @@ ARGV.each do |filename|
       ve['votes'].each do |vote|
         voter = vote['voter']
         partyid  = voter['party'].gsub(/ \([^\)]+\)/,'').gsub(/^whilst /,'').gsub(/^Ind .*/, 'Ind').downcase
-        name = std_name(voter['name'])
-        # Hack for people with same name
-        name = "Gareth R. Thomas" if name == 'Gareth Thomas' and voter['constituency'] == 'Harrow West'
-        name = "Angela C. Smith" if name == 'Angela Smith' and voter['constituency'] != 'Basildon'
-        name = "Dr Alan Williams" if name == 'Alan Williams' and voter['constituency'][/Carmarthen/]
 
+        mp = MP.find(voter)
         people << {
-          name: name,
+          mp: mp,
           partyid: partyid,
           constituency: voter['constituency'],
           date: aspect['motion']['date'],
@@ -77,11 +100,11 @@ end
   max: people.map { |p| p[:date] }.max,
 }
 
-data = people.group_by { |p| p[:name] }.sort_by { |k,vs| k }.map do |name, history|
+data = people.group_by { |p| p[:mp] }.sort_by { |k,vs| k.name }.map do |mp, history|
   {
-    id: id_from_name(name),
-    name: name,
-    other_names: @names.select { |k, v| v == name and k != name }.keys.map { |n| { name: n }  },
+    id: mp.id,
+    name: mp.name,
+    other_names: mp.other_names.map { |n| { name: n } },
     memberships: memberships_from(history),
   }.reject { |k, v| v.empty? }
 end
