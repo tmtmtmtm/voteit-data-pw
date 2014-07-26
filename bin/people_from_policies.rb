@@ -17,19 +17,18 @@ class MP
   attr_accessor :id, :name, :other_names
 
   @@mps = {}
-  def self.find (record)
-    std = standardised_name(record['name'])
-    # Hack for people with same name
-    std = "Gareth R. Thomas" if std == 'Gareth Thomas' and record['constituency'] == 'Harrow West'
-    std = "Angela C. Smith"  if std == 'Angela Smith'  and record['constituency'] != 'Basildon'
-    std = "Dr Alan Williams" if std == 'Alan Williams' and record['constituency'][/Carmarthen/]
 
-    id = self.id_from_name(std)
-    @@mps[id] ||= MP.new(id, std)
-    @@mps[id].add_name(record['name'])
-    @@mps[id]
+  # Cache by name / constituency for quicker lookup
+  @@cache = {}
+
+  def self.find (record)
+    key = [record['name'], record['constituency']]
+    @@cache[key] ||= new_from_record(record)
+    @@cache[key].add_name(record['name'])
+    @@cache[key]
   end
 
+  #-------------------------------------------------------------
 
   def initialize (id, name)
     @id = id
@@ -43,6 +42,16 @@ class MP
   end
 
   private
+
+  def self.new_from_record(record)
+    std = standardised_name(record['name'])
+    # Hack for people with same name
+    std = "Gareth R. Thomas" if std == 'Gareth Thomas' and record['constituency'] == 'Harrow West'
+    std = "Angela C. Smith"  if std == 'Angela Smith'  and record['constituency'] != 'Basildon'
+    std = "Dr Alan Williams" if std == 'Alan Williams' and record['constituency'][/Carmarthen/]
+    id = self.id_from_name(std)
+    @@mps[id] ||= self.new(id, std)
+  end
 
   def self.standardised_name (name)
     std = name.sub(/^Earl of /,'').sub(/^Lady Lady /,'Lady ')
