@@ -8,11 +8,6 @@ require 'json'
 require 'set'
 require 'i18n'
 
-@bounds = {
-  min: '2100-01-01',
-  max: '1900-01-01',
-}
-
 @names = {}
 def std_name (orig)
   if @names[orig].nil?
@@ -57,8 +52,6 @@ ARGV.each do |filename|
   json = JSON.parse(File.read(filename));
   json['aspects'].each do |aspect|
     aspect['motion']['vote_events'].each do |ve|
-      @bounds[:min] = aspect['motion']['date'] if aspect['motion']['date'] < @bounds[:min]
-      @bounds[:max] = aspect['motion']['date'] if aspect['motion']['date'] > @bounds[:max]
       ve['votes'].each do |vote|
         voter = vote['voter']
         partyid  = voter['party'].gsub(/ \([^\)]+\)/,'').gsub(/^whilst /,'').gsub(/^Ind .*/, 'Ind').downcase
@@ -78,6 +71,11 @@ ARGV.each do |filename|
     end
   end
 end
+
+@bounds = {
+  min: people.map { |p| p[:date] }.min,
+  max: people.map { |p| p[:date] }.max,
+}
 
 data = people.group_by { |p| p[:name] }.sort_by { |k,vs| k }.map do |name, history|
   {
