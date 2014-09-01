@@ -1,5 +1,7 @@
 #!/usr/bin/ruby
 
+require 'open-uri/cached'
+
 # Parse https://raw.githubusercontent.com/mysociety/theyworkforyou/master/classes/Policies.php
 # into lines suitable for passing to make_issue
 
@@ -24,8 +26,8 @@ def find_categories (page_text)
   lines.drop(1)
 end
 
-file = ARGV[0] || "twfy.policies.text"
-page_text = open(file).read
+url = 'https://raw.githubusercontent.com/mysociety/theyworkforyou/master/classes/Policies.php'
+page_text = open(url).read
 
 cats = {}
 section = 'XXX'
