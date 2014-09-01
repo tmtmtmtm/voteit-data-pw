@@ -131,7 +131,7 @@ data = people.group_by { |p| p[:mp] }.sort_by { |k,vs| k.name }.map do |mp, hist
     name: mp.name,
     other_names: mp.other_names.map { |n| { name: n } },
     memberships: memberships_from(history),
-    other_identifiers: mp.pwid.nil? ? nil : [{ scheme: 'publicwhip.org', identifier: mp.pwid }],
+    other_identifiers: mp.pwid.nil? ? '' : [{ scheme: 'publicwhip.org', identifier: mp.pwid }],
   }.reject { |k, v| v.empty? }
 end
 
