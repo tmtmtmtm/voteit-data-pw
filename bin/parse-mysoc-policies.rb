@@ -5,6 +5,8 @@ require 'open-uri/cached'
 # Parse https://raw.githubusercontent.com/mysociety/theyworkforyou/master/classes/Policies.php
 # into lines suitable for passing to make_issue
 
+# This is largely replaced now by https://api.morph.io/tmtmtmtm/theyworkforyou_policies
+
 def issue_from (line)
   return unless m = line.match( /(\d+) => '(.*)',?\s?$/ )
   return {
