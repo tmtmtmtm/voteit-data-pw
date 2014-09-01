@@ -4,7 +4,10 @@
 #
 # Usage: bin/people_from_policies.rb data/policies/*.json > people.json
 
-# If a constituencies.csv file exists, mapping constituencies to which 
+# If a pwids.csv file exists of Public Whip MP IDs, include those
+#   https://morph.io/tmtmtmtm/publicwhip_policies/#table_voters
+
+# TODO: If a constituencies.csv file exists, mapping constituencies to which 
 # area they're in, include that info too. This can be downloaded from
 # https://morph.io/tmtmtmtm/uk_parliamentary_constituencies
 
@@ -12,9 +15,10 @@ require 'json'
 require 'set'
 require 'i18n'
 require 'csv'
+require 'colorize'
 
 class MP
-  attr_accessor :id, :name, :other_names
+  attr_accessor :id, :name, :other_names, :pwid
 
   @@mps = {}
 
@@ -82,6 +86,14 @@ def memberships_from(history)
   }
 end
 
+pwids = {}
+if File.exist?('pwids.csv') 
+  CSV.foreach('pwids.csv', :headers => true) do |row|
+    pwids[row['url']] = row['id']
+  end
+end
+
+
 people = []
 ARGV.each do |filename|
   warn "Reading #{filename}"
@@ -93,6 +105,10 @@ ARGV.each do |filename|
         partyid  = voter['party'].gsub(/ \([^\)]+\)/,'').gsub(/^whilst /,'').gsub(/^Ind .*/, 'Ind').downcase
 
         mp = MP.find(voter)
+        if pwid = pwids[voter['url']]
+          mp.pwid = pwid
+        end
+
         people << {
           mp: mp,
           partyid: partyid,
@@ -115,6 +131,7 @@ data = people.group_by { |p| p[:mp] }.sort_by { |k,vs| k.name }.map do |mp, hist
     name: mp.name,
     other_names: mp.other_names.map { |n| { name: n } },
     memberships: memberships_from(history),
+    other_identifiers: mp.pwid.nil? ? nil : [{ scheme: 'publicwhip.org', identifier: mp.pwid }],
   }.reject { |k, v| v.empty? }
 end
 
